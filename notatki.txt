@@ -6,7 +6,6 @@ Reddit dataset:
 https://www.kaggle.com/nikkou/gender-statistics-of-rrateme
 
 Dataset to train model:
-https://www.kaggle.com/c/twitter-sentiment-analysis2/rules
 https://www.kaggle.com/kazanova/sentiment140
 
 
