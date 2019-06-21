@@ -6,17 +6,16 @@ _Based on gender statistics on /r/rateme dataset I want to check, if there exist
 
 
 
-### **Step 1: Data preprocessing**  
-
-
-**Tokenization ** — convert sentences to words
+### Step 1: Data preprocessing
+**Tokenization**— convert sentences to words
 Removing unnecessary punctuation, tags
-Removing stop words — frequent words such as ”the”, ”is”, etc. that do not have specific semantic  
+Removing stop words — frequent words such as ”the”, ”is”, etc. that do not have specific semantic .
 **Stemming**  — words are reduced to a root by removing inflection through dropping unnecessary characters, usually a suffix.  
-**Lemmatization**  — Another approach to remove inflection by determining the part of speech and utilizing detailed database of the    language.  
+**Lemmatization** — Another approach to remove inflection by determining the part of speech and utilizing detailed database of the language.  
 
 My first step will be preparing tweets from twitter dataset. To do this, I am going to use NLTK - The Natural Language Toolkit.
 
+### Step 2: TODO
 
 ### Resources:
 [Training a sentiment analysis core ml model](https://heartbeat.fritz.ai/training-a-sentiment-analysis-core-ml-model-28823b21322c)  
