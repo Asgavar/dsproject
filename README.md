@@ -1,17 +1,17 @@
 _Based on Gender statistics on /r/rateme dataset I want to check, if there exists a relation between age and sex of the author of the post and a feedback, which he is getting from other users. To achieve this, I need to create a model able to classify, if a comment is positive or negative. I can do this using a dataset of tweets from a contest on Kaggle._
 
 ### Datasets:
-** [Reddit dataset](https://www.kaggle.com/nikkou/gender-statistics-of-rrateme) **  
-** [Dataset to train model](https://www.kaggle.com/kazanova/sentiment140) **
+**[Reddit dataset](https://www.kaggle.com/nikkou/gender-statistics-of-rrateme)**  
+**[Dataset to train model](https://www.kaggle.com/kazanova/sentiment140)**
 
 
 
 ### **Step 1: Data preprocessing**
-Tokenization — convert sentences to words
+**Tokenization **— convert sentences to words
 Removing unnecessary punctuation, tags
-Removing stop words — frequent words such as ”the”, ”is”, etc. that do not have specific semantic
-Stemming — words are reduced to a root by removing inflection through dropping unnecessary characters, usually a suffix.
-Lemmatization — Another approach to remove inflection by determining the part of speech and utilizing detailed database of the    language.
+Removing stop words — frequent words such as ”the”, ”is”, etc. that do not have specific semantic  
+**Stemming** — words are reduced to a root by removing inflection through dropping unnecessary characters, usually a suffix.  
+**Lemmatization** — Another approach to remove inflection by determining the part of speech and utilizing detailed database of the    language.  
 
 My first step will be preparing tweets from twitter dataset. To do this, I am going to use NLTK - The Natural Language Toolkit.
 
