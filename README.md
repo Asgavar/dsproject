@@ -1,4 +1,4 @@
-_Based on Gender statistics on /r/rateme dataset I want to check, if there exists a relation between age and sex of the author of the post and a feedback, which he is getting from other users. To achieve this, I need to create a model able to classify, if a comment is positive or negative. I can do this using a dataset of tweets from a contest on Kaggle._
+_Based on Gender statistics on /r/rateme dataset I want to check, if there exists a relation between age and sex of the post author and feedback they are getting from other users. To achieve this, I need to create a model able to classify, if a comment is positive or negative. I can do this using a dataset of tweets from a contest on Kaggle._
 
 ### Datasets:
 ** [Reddit dataset](https://www.kaggle.com/nikkou/gender-statistics-of-rrateme) **  
